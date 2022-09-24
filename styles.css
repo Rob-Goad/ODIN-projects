@@ -1,0 +1,16 @@
+#picture {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+}
+
+.header {
+    border: 2px inset #00A4BD;
+    width: 60%;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+}
+
