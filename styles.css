@@ -1,8 +1,13 @@
+html {
+    max-width: 100%;
+}
+
 #picture {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     border-radius: 5px;
     box-shadow: 5px 5px black;
+    margin-left: 20px;
 }
 
 .header {
@@ -12,5 +17,34 @@
     background-color: aquamarine;
     border-radius: 5px;
     box-shadow: 5px 5px black;
+    margin-left: 20px
 }
 
+.header2 {
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    border-bottom: 2px solid black;
+    max-width: 60%;
+    margin-left: 20px;
+    width: 200px;
+
+}
+
+.image {
+    display: inline-block;
+    float: left;
+}
+
+.recipe-text {
+    left: 20px;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 28px;   
+}
+
+ul {
+   list-style-position: inside; 
+   bottom: 20px;
+   position: relative;
+}
